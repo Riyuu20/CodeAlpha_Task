@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animated Age Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&family=Poppins&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 🔊 Background Music -->
+  <audio id="bg-music" loop>
+    <source src="Amberlight-chosic.com_.mp3" type="audio/mpeg" />
+    Your browser does not support the audio element.
+  </audio>
+
+  <div class="container">
+    <div class="age-card">
+      <h1>🎂 Age Calculator</h1>
+      <p>Select your Date of Birth:</p>
+      <input type="date" id="dob" />
+      <button onclick="calculateAge()">Calculate</button>
+      <div id="result"></div>
+    </div>
+    <footer>Made with ❤️ by <a href="https://www.codealpha.tech" target="_blank">CodeAlpha</a></footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
